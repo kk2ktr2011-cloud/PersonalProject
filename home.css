@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
-  background-color: rgb(181 186 208);
+  background-color: rgb(151 204 4);
   color: #222;
 }
 
@@ -9,21 +9,32 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(65, 103, 136);
+  background: rgb(45, 125,210);
   color: black;
   padding: 15px 30px;
 }
 
 .logo {
   margin: 0;
+  color: rgb(33 41 92);
 }
 
 .nav-links a {
-  color: black;
+  color: rgb(33, 41, 92);
   text-decoration: none;
   margin: 0 10px;
 }
 
 .nav-links a:hover {
   text-decoration: underline;
+}
+
+.section {
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.mission {
+    background-color: rgb(238 185 2);
+    padding: 5%;
 }
