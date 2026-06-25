@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
-  background-color: rgb(151 204 4);
+  background-color: rgb(220, 235, 190);
   color: #222;
 }
 
@@ -9,24 +9,30 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(45, 125,210);
-  color: black;
+  background: rgb(45, 125, 210);
   padding: 15px 30px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .logo {
   margin: 0;
-  color: rgb(33 41 92);
+  color: rgb(8, 23, 112);
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
 }
 
 .nav-links a {
-  color: rgb(33, 41, 92);
+  color: rgb(8, 23, 112);
   text-decoration: none;
-  margin: 0 10px;
+  transition: color 0.2s ease;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  color: rgb(255, 220, 100);
 }
 
 .section {
@@ -69,7 +75,7 @@ body {
 .footer {
   text-align: center;
   background: rgb(45, 125, 210);
-  color: black;
+  color: rgb(8, 23, 112);
   padding: 20px;
   margin-top: auto;
 }
@@ -102,8 +108,8 @@ img {
 .get-started {
   margin-top: 20px;
   padding: 12px 24px;
-  background-color: rgba(30, 90, 180, 0.8);
-  color: rgb(4, 152, 237);
+  background-color: rgb(255, 193, 7);
+  color: rgb(20, 40, 80);
   text-decoration: none;
   border-radius: 8px;
   display: inline-block;
